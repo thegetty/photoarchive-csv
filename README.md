@@ -14,7 +14,7 @@
 
 ## Introduction
 
-The J. Paul Getty Trust (the "Trust"), operating as the Getty Research Institute, has embarked on a project to digitize, and redesign the current infrastructure of the [Getty Photo Archive](http://www.getty.edu/research/tools/provenance/) and publish them as Linked Open Data (LOD) as part of the PHAROS Project. This project will take some time to complete, and the data provided in this repository is the input to that process.
+The J. Paul Getty Trust (the "Trust"), operating as the Getty Research Institute, intends to embark on a project to digitize, and redesign the current infrastructure of the [Getty Photo Archive](http://www.getty.edu/research/tools/photo/index.html), in order to republish the description of the archive as Linked Open Data (LOD) as part of the [Pharos Project](http://pharosartresearch.org/). This project will take some time to complete, and the data provided in this repository is the input to that process.
 
 **These data will eventually be superseded by the Linked Open Data release.**
 
@@ -25,6 +25,10 @@ While this repository will remain public after the LOD release, the datasets it 
 The Photo Archive is comprised of several distinct databases. The quantity and scope of the material that is available in each database varies.
 
 Each database is provided in one or more CSV (comma separated values) files in its own directory. Each of these directories contains a database-specific README file documenting the sources from which each dataset has been derived, as well as a data dictionary with a description of each table column. 
+
+### Sample Dataset
+
+The current dataset is a [sample](sample/) of less than a thousand photographs of artworks for which Peter Paul Rubens was an attributed artist.  
 
 ## Usage guidelines
 
